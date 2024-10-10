@@ -13,3 +13,7 @@ class Bank():
             print(f"Invalid amount")
         return print(f"Balance succsessfully updated. You balance now {self._balance}")
 
+    def _kill(self):
+        self._balance = 0
+        return print(f"Your balance has been reseted")
+
